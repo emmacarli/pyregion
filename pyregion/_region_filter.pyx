@@ -10,7 +10,7 @@ cimport  c_numpy
 from c_numpy cimport npy_bool
 cimport c_python
 
-c_numpy.import_array()
+c_numpy.import_array1(0)
 
 ctypedef int Py_ssize_t
 

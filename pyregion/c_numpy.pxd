@@ -126,5 +126,5 @@ cdef extern from "numpy/arrayobject.h":
     object PyArray_IterNew(object obj)
     void PyArray_ITER_NEXT(flatiter it)
 
-    void import_array()
+    void import_array1(int)
     void import_ufunc()
